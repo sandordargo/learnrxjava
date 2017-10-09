@@ -318,12 +318,12 @@ public class ComposableListSolutions<T> extends ArrayList<T> implements Composab
     /*
     Exercise 10: Implement concatMap()
 
-    To flatten trees with nested forEach expressions we accumlate the results in a new flat list. Querying a List 
+    To flatten trees with nested forEach expressions we accumulate the results in a new flat list. Querying a List
     of data from a Tree is a very common operation. Ideally we'd be able to use a helper function to do the heavy 
     lifting for us. 
 
     Let's implement the concatMap() method for List. Like map(), the concatMap() function applies a projection 
-    function to each item in a list. However the projection function passed to concatMap tranforms each individual 
+    function to each item in a list. However the projection function passed to concatMap transforms each individual
     value into a _list of values_, creating a tree structure. Before returning the tree, the concatMap method 
     flattens the tree by concatenating each inner list together in order. Here's an example of concatMap in action:
     
